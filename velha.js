@@ -38,7 +38,7 @@ function verificaGanhador() {
 
     //colunas - não funciona!!//
     for (let i = 0; i < 3; i++) {
-        if ((board [0][i] !== ' ') && ((board [0][i] === board [1][i]) && (board [1][i] === [2][i])))
+        if ((board [0][i] !== ' ') && ((board [0][i] === board [1][i]) && (board [1][i] === board [2][i])))
         {   
             ganhou = espera;
             document.getElementById("ganhador").innerHTML = "O ganhador é: " + ganhou; 
